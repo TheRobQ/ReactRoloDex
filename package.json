@@ -4,7 +4,8 @@
   "description": "React learning project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,22 @@
   "bugs": {
     "url": "https://github.com/TheRobQ/ReactRoloDex/issues"
   },
-  "homepage": "https://github.com/TheRobQ/ReactRoloDex#readme"
+  "homepage": "https://github.com/TheRobQ/ReactRoloDex#readme",
+  "devDependencies": {
+    "@babel/cli": "7.1.0",
+    "@babel/core": "7.1.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-react": "7.0.0",
+    "webpack": "5.22.0",
+    "webpack-cli": "4.5.0"
+  },
+  "dependencies": {
+    "babel-loader": "8.2.2",
+    "css-loader": "5.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-hot-loader": "4.13.0",
+    "style-loader": "2.0.0",
+    "webpack-dev-server": "3.11.2"
+  }
 }
