@@ -1,5 +1,6 @@
 
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
@@ -27,7 +28,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, "public/"),
-    port: 3000,
+    port: 3001,
     publicPath: "http://localhost:3000/dist/",
     hotOnly: true
   },
